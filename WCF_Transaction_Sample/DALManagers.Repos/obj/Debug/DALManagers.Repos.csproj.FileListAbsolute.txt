@@ -1,0 +1,9 @@
+F:\WPFSamples\WCF_Transaction_Sample\DALManagers.Repos\bin\Debug\DALManagers.Repos.dll
+F:\WPFSamples\WCF_Transaction_Sample\DALManagers.Repos\bin\Debug\DALManagers.Repos.pdb
+F:\WPFSamples\WCF_Transaction_Sample\DALManagers.Repos\bin\Debug\DALManagers.Contracts.dll
+F:\WPFSamples\WCF_Transaction_Sample\DALManagers.Repos\bin\Debug\Entities.dll
+F:\WPFSamples\WCF_Transaction_Sample\DALManagers.Repos\bin\Debug\DALManagers.Contracts.pdb
+F:\WPFSamples\WCF_Transaction_Sample\DALManagers.Repos\bin\Debug\Entities.pdb
+F:\WPFSamples\WCF_Transaction_Sample\DALManagers.Repos\obj\Debug\DALManagers.Repos.csprojResolveAssemblyReference.cache
+F:\WPFSamples\WCF_Transaction_Sample\DALManagers.Repos\obj\Debug\DALManagers.Repos.dll
+F:\WPFSamples\WCF_Transaction_Sample\DALManagers.Repos\obj\Debug\DALManagers.Repos.pdb

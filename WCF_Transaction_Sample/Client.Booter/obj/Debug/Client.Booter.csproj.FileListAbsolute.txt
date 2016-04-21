@@ -1,0 +1,15 @@
+F:\WPFSamples\WCF_Transaction_Sample\Client.Booter\bin\Debug\Client.Booter.dll
+F:\WPFSamples\WCF_Transaction_Sample\Client.Booter\bin\Debug\Client.Booter.pdb
+F:\WPFSamples\WCF_Transaction_Sample\Client.Booter\bin\Debug\ClientServiceManagers.Contracts.dll
+F:\WPFSamples\WCF_Transaction_Sample\Client.Booter\bin\Debug\ClientServiceManagers.Services.dll
+F:\WPFSamples\WCF_Transaction_Sample\Client.Booter\bin\Debug\Core.Contracts.dll
+F:\WPFSamples\WCF_Transaction_Sample\Client.Booter\bin\Debug\Core.Services.dll
+F:\WPFSamples\WCF_Transaction_Sample\Client.Booter\bin\Debug\ClientServiceManagers.Entities.dll
+F:\WPFSamples\WCF_Transaction_Sample\Client.Booter\bin\Debug\ClientServiceManagers.Contracts.pdb
+F:\WPFSamples\WCF_Transaction_Sample\Client.Booter\bin\Debug\ClientServiceManagers.Services.pdb
+F:\WPFSamples\WCF_Transaction_Sample\Client.Booter\bin\Debug\Core.Contracts.pdb
+F:\WPFSamples\WCF_Transaction_Sample\Client.Booter\bin\Debug\Core.Services.pdb
+F:\WPFSamples\WCF_Transaction_Sample\Client.Booter\bin\Debug\ClientServiceManagers.Entities.pdb
+F:\WPFSamples\WCF_Transaction_Sample\Client.Booter\obj\Debug\Client.Booter.csprojResolveAssemblyReference.cache
+F:\WPFSamples\WCF_Transaction_Sample\Client.Booter\obj\Debug\Client.Booter.dll
+F:\WPFSamples\WCF_Transaction_Sample\Client.Booter\obj\Debug\Client.Booter.pdb

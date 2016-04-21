@@ -1,0 +1,15 @@
+F:\WPFSamples\WCF_Transaction_Sample\Services\bin\Debug\Services.dll
+F:\WPFSamples\WCF_Transaction_Sample\Services\bin\Debug\Services.pdb
+F:\WPFSamples\WCF_Transaction_Sample\Services\bin\Debug\Contracts.dll
+F:\WPFSamples\WCF_Transaction_Sample\Services\bin\Debug\Core.Contracts.dll
+F:\WPFSamples\WCF_Transaction_Sample\Services\bin\Debug\Core.Services.dll
+F:\WPFSamples\WCF_Transaction_Sample\Services\bin\Debug\DALManagers.Contracts.dll
+F:\WPFSamples\WCF_Transaction_Sample\Services\bin\Debug\Entities.dll
+F:\WPFSamples\WCF_Transaction_Sample\Services\bin\Debug\Contracts.pdb
+F:\WPFSamples\WCF_Transaction_Sample\Services\bin\Debug\Core.Contracts.pdb
+F:\WPFSamples\WCF_Transaction_Sample\Services\bin\Debug\Core.Services.pdb
+F:\WPFSamples\WCF_Transaction_Sample\Services\bin\Debug\DALManagers.Contracts.pdb
+F:\WPFSamples\WCF_Transaction_Sample\Services\bin\Debug\Entities.pdb
+F:\WPFSamples\WCF_Transaction_Sample\Services\obj\Debug\ServiceManager.Services.csprojResolveAssemblyReference.cache
+F:\WPFSamples\WCF_Transaction_Sample\Services\obj\Debug\Services.dll
+F:\WPFSamples\WCF_Transaction_Sample\Services\obj\Debug\Services.pdb

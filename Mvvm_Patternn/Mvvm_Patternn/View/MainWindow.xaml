@@ -1,0 +1,99 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mvvm_Patternn"
+        xmlns:local1="clr-namespace:Mvvm_Patternn.ViewModel"
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" x:Class="Mvvm_Patternn.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <!--<Window.DataContext>-->
+    <!--<local:Product_ViewModel/>-->
+    <!--<local1:Company_ViewModel/>-->
+    <!--</Window.DataContext>-->
+    <Window.Resources>
+        <Style TargetType="{x:Type dxg:GridColumn}">
+            <Setter Property="HorizontalHeaderContentAlignment" Value="Center"></Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Row="0" 
+                       Grid.Column="0">Id
+            </TextBlock>
+            <TextBlock Grid.Row="1" 
+                       Grid.Column="0">Name
+            </TextBlock>
+
+            <TextBox Grid.Row="0" 
+                     Grid.Column="1" 
+                     x:Name="txtId"
+                     Text="{Binding ElementName=grdcProducts, Path=View.FocusedRowData.Row.Id}"
+                     IsReadOnly="True">
+            </TextBox>
+            <TextBox Grid.Row="1" 
+                     Grid.Column="1" 
+                     x:Name="txtName"
+                     Text="{Binding ElementName=grdcProducts, Path=View.FocusedRowData.Row.Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+            </TextBox>
+
+            <Button Grid.Row="2" 
+                    Grid.Column="1" 
+                    Content="Update"
+                    Width="75"
+                    HorizontalAlignment="Left"
+                    Command="{Binding UpdateCommand}">
+            </Button>
+        </Grid>
+        <dxg:GridControl x:Name="grdcCompany"
+                         Grid.Row="1"
+                         ItemsSource="{Binding Companies}">
+            <dxg:GridControl.DataContext>
+                <local1:Company_ViewModel/>
+            </dxg:GridControl.DataContext>
+            <dxg:GridControl.View>
+                <dxg:TableView x:Name="grdvCompany" 
+                               AutoWidth="True"
+                               FocusedRow="{Binding Path=SelectedCompany, Mode=OneWayToSource}"
+                               ShowGroupPanel="False">
+                </dxg:TableView>
+            </dxg:GridControl.View>
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn Binding="{Binding Path=Id}">Id</dxg:GridColumn>
+                <dxg:GridColumn Binding="{Binding Path=Name}">Name</dxg:GridColumn>
+            </dxg:GridControl.Columns>
+        </dxg:GridControl>
+        <dxg:GridControl x:Name="grdcProducts"
+                         ItemsSource="{Binding Path=Products}"
+                         Grid.Row="2">
+            <dxg:GridControl.DataContext>
+                <local:Product_ViewModel/>
+            </dxg:GridControl.DataContext>
+            <dxg:GridControl.View>
+                <dxg:TableView ShowGroupPanel="False" 
+                               AutoWidth="True"
+                               x:Name="grdvProducts">
+                </dxg:TableView>
+            </dxg:GridControl.View>
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn Binding="{Binding Id}">Id</dxg:GridColumn>
+                <dxg:GridColumn Binding="{Binding Name}">Name</dxg:GridColumn>
+            </dxg:GridControl.Columns>
+        </dxg:GridControl>
+    </Grid>
+</Window>

@@ -1,0 +1,4 @@
+F:\WPFSamples\WCF_Transaction_Sample\Entities\bin\Debug\Entities.dll
+F:\WPFSamples\WCF_Transaction_Sample\Entities\bin\Debug\Entities.pdb
+F:\WPFSamples\WCF_Transaction_Sample\Entities\obj\Debug\Entities.dll
+F:\WPFSamples\WCF_Transaction_Sample\Entities\obj\Debug\Entities.pdb

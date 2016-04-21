@@ -1,0 +1,4 @@
+F:\WPFSamples\SSP1\DALs\bin\Debug\DALs.dll
+F:\WPFSamples\SSP1\DALs\bin\Debug\DALs.pdb
+F:\WPFSamples\SSP1\DALs\obj\Debug\DALs.dll
+F:\WPFSamples\SSP1\DALs\obj\Debug\DALs.pdb

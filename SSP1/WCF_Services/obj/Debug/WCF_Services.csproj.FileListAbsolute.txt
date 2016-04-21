@@ -1,0 +1,7 @@
+F:\WPFSamples\SSP1\WCF_Services\bin\Debug\WCF_Services.dll
+F:\WPFSamples\SSP1\WCF_Services\bin\Debug\WCF_Services.pdb
+F:\WPFSamples\SSP1\WCF_Services\bin\Debug\Entities.dll
+F:\WPFSamples\SSP1\WCF_Services\bin\Debug\Entities.pdb
+F:\WPFSamples\SSP1\WCF_Services\obj\Debug\WCF_Services.csprojResolveAssemblyReference.cache
+F:\WPFSamples\SSP1\WCF_Services\obj\Debug\WCF_Services.dll
+F:\WPFSamples\SSP1\WCF_Services\obj\Debug\WCF_Services.pdb

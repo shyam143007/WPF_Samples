@@ -1,0 +1,7 @@
+F:\WPFSamples\SSP1\Client_Proxy\bin\Debug\Client_Proxy.dll
+F:\WPFSamples\SSP1\Client_Proxy\bin\Debug\Client_Proxy.pdb
+F:\WPFSamples\SSP1\Client_Proxy\bin\Debug\Client_Entities.dll
+F:\WPFSamples\SSP1\Client_Proxy\bin\Debug\Client_Entities.pdb
+F:\WPFSamples\SSP1\Client_Proxy\obj\Debug\Client_Proxy.csprojResolveAssemblyReference.cache
+F:\WPFSamples\SSP1\Client_Proxy\obj\Debug\Client_Proxy.dll
+F:\WPFSamples\SSP1\Client_Proxy\obj\Debug\Client_Proxy.pdb

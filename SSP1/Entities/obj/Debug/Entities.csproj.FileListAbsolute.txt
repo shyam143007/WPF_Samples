@@ -1,0 +1,4 @@
+F:\WPFSamples\SSP1\Entities\bin\Debug\Entities.dll
+F:\WPFSamples\SSP1\Entities\bin\Debug\Entities.pdb
+F:\WPFSamples\SSP1\Entities\obj\Debug\Entities.dll
+F:\WPFSamples\SSP1\Entities\obj\Debug\Entities.pdb

@@ -1,0 +1,13 @@
+F:\WPFSamples\SSP1\Service_Starter\bin\Debug\Service_Starter.exe.config
+F:\WPFSamples\SSP1\Service_Starter\bin\Debug\Service_Starter.exe
+F:\WPFSamples\SSP1\Service_Starter\bin\Debug\Service_Starter.pdb
+F:\WPFSamples\SSP1\Service_Starter\bin\Debug\WCF_Services.dll
+F:\WPFSamples\SSP1\Service_Starter\bin\Debug\Entities.dll
+F:\WPFSamples\SSP1\Service_Starter\bin\Debug\WCF_Services.pdb
+F:\WPFSamples\SSP1\Service_Starter\bin\Debug\Entities.pdb
+F:\WPFSamples\SSP1\Service_Starter\obj\Debug\Service_Starter.csprojResolveAssemblyReference.cache
+F:\WPFSamples\SSP1\Service_Starter\obj\Debug\Service_Starter.SampleServiceInstaller.resources
+F:\WPFSamples\SSP1\Service_Starter\obj\Debug\Service_Starter.Service1.resources
+F:\WPFSamples\SSP1\Service_Starter\obj\Debug\Service_Starter.csproj.GenerateResource.Cache
+F:\WPFSamples\SSP1\Service_Starter\obj\Debug\Service_Starter.exe
+F:\WPFSamples\SSP1\Service_Starter\obj\Debug\Service_Starter.pdb

@@ -1,0 +1,23 @@
+﻿<Window x:Class="Samples.DependencyProperty_sample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Samples"
+        mc:Ignorable="d"
+        Title="DependencyProperty_sample" Height="300" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBox HorizontalAlignment="Center"
+                 VerticalAlignment="Center" 
+                 Width="150"
+                 IsEnabled="True"
+                 IsReadOnly="False"
+                 x:Name="txtName">
+        </TextBox>
+        <local:ucDependencyProperty_Sample Grid.Row="1" SetText="{Binding ElementName=txtName, Path=Text, Mode=OneWay}"></local:ucDependencyProperty_Sample>
+    </Grid>
+</Window>

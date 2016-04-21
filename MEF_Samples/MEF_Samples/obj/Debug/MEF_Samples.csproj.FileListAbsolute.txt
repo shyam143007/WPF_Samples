@@ -1,0 +1,6 @@
+F:\WPFSamples\MEF_Samples\MEF_Samples\bin\Debug\MEF_Samples.exe.config
+F:\WPFSamples\MEF_Samples\MEF_Samples\bin\Debug\MEF_Samples.exe
+F:\WPFSamples\MEF_Samples\MEF_Samples\bin\Debug\MEF_Samples.pdb
+F:\WPFSamples\MEF_Samples\MEF_Samples\obj\Debug\MEF_Samples.exe
+F:\WPFSamples\MEF_Samples\MEF_Samples\obj\Debug\MEF_Samples.pdb
+F:\WPFSamples\MEF_Samples\MEF_Samples\obj\Debug\MEF_Samples.csprojResolveAssemblyReference.cache

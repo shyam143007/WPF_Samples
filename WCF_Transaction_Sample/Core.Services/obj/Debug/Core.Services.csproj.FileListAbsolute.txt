@@ -1,0 +1,7 @@
+F:\WPFSamples\WCF_Transaction_Sample\Core.Services\bin\Debug\Core.Services.dll
+F:\WPFSamples\WCF_Transaction_Sample\Core.Services\bin\Debug\Core.Services.pdb
+F:\WPFSamples\WCF_Transaction_Sample\Core.Services\bin\Debug\Core.Contracts.dll
+F:\WPFSamples\WCF_Transaction_Sample\Core.Services\bin\Debug\Core.Contracts.pdb
+F:\WPFSamples\WCF_Transaction_Sample\Core.Services\obj\Debug\Core.Services.csprojResolveAssemblyReference.cache
+F:\WPFSamples\WCF_Transaction_Sample\Core.Services\obj\Debug\Core.Services.dll
+F:\WPFSamples\WCF_Transaction_Sample\Core.Services\obj\Debug\Core.Services.pdb
