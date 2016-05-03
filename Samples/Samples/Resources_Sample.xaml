@@ -8,7 +8,6 @@
         Title="Resources_Sample" Height="300" Width="300">
     <Window.Resources>
         <RadialGradientBrush x:Key="customBrush">
-            <!--<GradientStop Offset="0" Color="{Binding Path=Brush}"></GradientStop>-->
             <GradientStop Offset="1.5" Color="Red"></GradientStop>
             <GradientStop Offset="0.5" Color="Yellow"></GradientStop>
         </RadialGradientBrush>

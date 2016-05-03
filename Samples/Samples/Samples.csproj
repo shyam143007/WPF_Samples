@@ -24,6 +24,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -76,6 +77,9 @@
     <Compile Include="CommandBindings_Sample.xaml.cs">
       <DependentUpon>CommandBindings_Sample.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DataTemplate_Sample.xaml.cs">
+      <DependentUpon>DataTemplate_Sample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DependencyProperty_sample.xaml.cs">
       <DependentUpon>DependencyProperty_sample.xaml</DependentUpon>
     </Compile>
@@ -100,6 +104,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="CommandBindings_Sample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataTemplate_Sample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

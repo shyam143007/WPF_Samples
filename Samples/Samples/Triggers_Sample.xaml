@@ -35,7 +35,7 @@
                             <Storyboard>
                                 <DoubleAnimation Duration="0:0:2" 
                                                  Storyboard.TargetProperty="FontSize"
-                                                 To="28">
+                                                 To="35">
                                 </DoubleAnimation>
                             </Storyboard>
                         </BeginStoryboard>
@@ -46,7 +46,7 @@
                         <Storyboard>
                             <DoubleAnimation Duration="0:0:2"
                                              Storyboard.TargetProperty="FontSize"
-                                             To="18">
+                                             To="15">
                             </DoubleAnimation>
                         </Storyboard>
                     </BeginStoryboard>
@@ -56,10 +56,18 @@
     </Window.Resources>
     <Grid>
         <TextBlock Text="Hello, style world"
-                   FontSize="5"
+                   FontSize="15"
                    HorizontalAlignment="Center"
                    VerticalAlignment="Center"
                    Style="{StaticResource eventTrigger}">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-359.535"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
         </TextBlock>
         <Button x:Name="btnChangeStyle"
                 HorizontalAlignment="Center" 
@@ -68,6 +76,15 @@
                 Height="35" 
                 Content="Click"
                 Click="btnChangeStyle_Click">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Style.Triggers>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter Property="Foreground" Value="Red"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
         </Button>
     </Grid>
 </Window>

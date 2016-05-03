@@ -84,3 +84,5 @@ F:\WPFSamples\Samples\Samples\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v14.2.re
 F:\WPFSamples\Samples\Samples\obj\Debug\ButtonFocusIssue.g.cs
 F:\WPFSamples\Samples\Samples\obj\Debug\ButtonFocusIssue.baml
 F:\WPFSamples\Samples\Samples\obj\Debug\Samples.csprojResolveAssemblyReference.cache
+F:\WPFSamples\Samples\Samples\obj\Debug\DataTemplate_Sample.g.cs
+F:\WPFSamples\Samples\Samples\obj\Debug\DataTemplate_Sample.baml

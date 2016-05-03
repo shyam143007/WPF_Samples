@@ -1,4 +1,5 @@
 F:\WPFSamples\WCF_Transaction_Sample\Core.Contracts\bin\Debug\Core.Contracts.dll
 F:\WPFSamples\WCF_Transaction_Sample\Core.Contracts\bin\Debug\Core.Contracts.pdb
+F:\WPFSamples\WCF_Transaction_Sample\Core.Contracts\obj\Debug\Core.Contracts.csprojResolveAssemblyReference.cache
 F:\WPFSamples\WCF_Transaction_Sample\Core.Contracts\obj\Debug\Core.Contracts.dll
 F:\WPFSamples\WCF_Transaction_Sample\Core.Contracts\obj\Debug\Core.Contracts.pdb

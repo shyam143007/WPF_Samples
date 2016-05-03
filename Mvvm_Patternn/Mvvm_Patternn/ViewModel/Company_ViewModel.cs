@@ -39,7 +39,6 @@ namespace Mvvm_Patternn.ViewModel
 
         public Company_ViewModel()
         {
-            SampleMethod();
             _companies = new List<Company>()
             {
                 new Company()
@@ -79,6 +78,7 @@ namespace Mvvm_Patternn.ViewModel
                 Console.Write("executed finally");
             }
         }
+
         //private class CompanyChangedCommand : ICommand
         //{
         //    public event EventHandler CanExecuteChanged;

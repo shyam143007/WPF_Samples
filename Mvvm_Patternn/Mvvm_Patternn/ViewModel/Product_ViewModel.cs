@@ -7,12 +7,34 @@ using System.Windows.Input;
 using Mvvm_Patternn.Models;
 using Mvvm_Patternn.ViewModel;
 using System.ComponentModel;
+using Mvvm_Patternn.ViewModel.Commands;
 
 namespace Mvvm_Patternn
 {
     public class Product_ViewModel : INotifyPropertyChanged
     {
+        #region variables
+
         private List<Product> _products;
+        private Product _selectedProduct;
+        private ICommand _updateCommand;
+
+        #endregion
+
+        #region Properties
+
+        public ICommand UpdateCommand
+        {
+            get
+            {
+                return _updateCommand;
+            }
+            set
+            {
+                _updateCommand = value;
+            }
+        }
+
         public List<Product> Products
         {
             get
@@ -26,13 +48,38 @@ namespace Mvvm_Patternn
             }
         }
 
+        public Product SelectedProduct
+        {
+            get
+            {
+                return _selectedProduct;
+            }
+            set
+            {
+                _selectedProduct = value;
+                OnPropertyChanged("SelectedProduct");
+            }
+        }
+
+        #endregion
+
+        #region ctor
         public Product_ViewModel()
         {
+            UpdateCommand = new UpdateCommand(this);
             Company_ViewModel.CompanyChangedEvent += Company_ViewModel_CompanyChangedEvent;
         }
+        #endregion
+
+        #region Custom Event Handlers
 
         private void Company_ViewModel_CompanyChangedEvent(Company company)
         {
+            if (company == null)
+            {
+                Products = null;
+                return;
+            }
             if (company.Id == 1)
             {
                 Products = new List<Product>()
@@ -51,8 +98,9 @@ namespace Mvvm_Patternn
             }
         }
 
-        private ICommand _updateCommand;
+        #endregion
 
+        #region PropertyChanged Events
         public event PropertyChangedEventHandler PropertyChanged;
 
         void OnPropertyChanged(string propertyName)
@@ -63,35 +111,15 @@ namespace Mvvm_Patternn
             }
         }
 
-        public ICommand UpdateCommand
+        #endregion
+
+        #region Command Methods
+
+        public void UpdateData(object data)
         {
-            get
-            {
-                if (_updateCommand == null)
-                {
-                    _updateCommand = new Updater();
-                }
-                return _updateCommand;
-            }
-            set
-            {
-                _updateCommand = value;
-            }
+            Product product = data as Product;
         }
 
-        private class Updater : ICommand
-        {
-            public event EventHandler CanExecuteChanged;
-
-            public bool CanExecute(object parameter)
-            {
-                return true;
-            }
-
-            public void Execute(object parameter)
-            {
-
-            }
-        }
+        #endregion
     }
 }

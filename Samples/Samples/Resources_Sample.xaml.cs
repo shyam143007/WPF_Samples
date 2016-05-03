@@ -23,6 +23,7 @@ namespace Samples
         Color brush;
         Random random = new Random(0);
         RadialGradientBrush radialGradientBrush1;
+
         public Color Brush
         {
             get
@@ -35,6 +36,7 @@ namespace Samples
                 OnPropertyChanged("Brush");
             }
         }
+
         public Resources_Sample()
         {
             InitializeComponent();
@@ -59,13 +61,9 @@ namespace Samples
         {
             List<byte> colors_1 = GetRGBValues();
             List<byte> colors_2 = GetRGBValues();
-            //Brush = Color.FromRgb(red, green, blue);
             radialGradientBrush1 = new RadialGradientBrush(Color.FromRgb(colors_1[0], colors_1[1], colors_1[2]),
                  Color.FromRgb(colors_2[0], colors_2[1], colors_2[2]));
-            //radialGradientBrush1.GradientStops.Add(new GradientStop(Colors.Green, 2));
             this.Resources["customBrush"] = radialGradientBrush1;
-
-            
         }
 
         private List<byte> GetRGBValues()

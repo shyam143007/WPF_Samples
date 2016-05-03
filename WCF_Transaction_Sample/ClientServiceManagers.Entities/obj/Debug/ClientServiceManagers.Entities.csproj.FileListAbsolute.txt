@@ -1,4 +1,5 @@
 F:\WPFSamples\WCF_Transaction_Sample\ClientServiceManagers.Entities\bin\Debug\ClientServiceManagers.Entities.dll
 F:\WPFSamples\WCF_Transaction_Sample\ClientServiceManagers.Entities\bin\Debug\ClientServiceManagers.Entities.pdb
+F:\WPFSamples\WCF_Transaction_Sample\ClientServiceManagers.Entities\obj\Debug\ClientServiceManagers.Entities.csprojResolveAssemblyReference.cache
 F:\WPFSamples\WCF_Transaction_Sample\ClientServiceManagers.Entities\obj\Debug\ClientServiceManagers.Entities.dll
 F:\WPFSamples\WCF_Transaction_Sample\ClientServiceManagers.Entities\obj\Debug\ClientServiceManagers.Entities.pdb
