@@ -13,6 +13,22 @@ namespace Mvvm_Patternn
 {
     public class Product_ViewModel : INotifyPropertyChanged
     {
+        private ICommand addCommand;
+
+        public ICommand AddCommand
+        {
+            get
+            {
+                if (addCommand == null)
+                    addCommand = new AddDelegateCommand(Add_Execute, new Func<object, bool>(Add_CanExecute));
+                return addCommand;
+            }
+            //set
+            //{
+            //    addCommand = value;
+            //}
+        }
+
         #region variables
 
         private List<Product> _products;
@@ -68,6 +84,7 @@ namespace Mvvm_Patternn
         {
             UpdateCommand = new UpdateCommand(this);
             Company_ViewModel.CompanyChangedEvent += Company_ViewModel_CompanyChangedEvent;
+            //AddCommand = new AddDelegateCommand(new Action<object>(Add_Execute), new Predicate<object>(Add_CanExecute));
         }
         #endregion
 
@@ -121,5 +138,15 @@ namespace Mvvm_Patternn
         }
 
         #endregion
+
+        public bool Add_CanExecute(object parameter)
+        {
+            return true;
+        }
+
+        public void Add_Execute(object parameter)
+        {
+
+        }
     }
 }

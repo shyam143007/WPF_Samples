@@ -1,4 +1,5 @@
 ﻿using Mvvm_Patternn.Models;
+using Mvvm_Patternn.ViewModel.Commands;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,6 +37,22 @@ namespace Mvvm_Patternn.ViewModel
                 RaiseCompanyChanged();
             }
         }
+
+        private ICommand addCommand;
+
+        public ICommand AddCommand
+        {
+            get
+            {
+                if (addCommand == null)
+                {
+                    addCommand = new AddDelegateCommand(Add_Execute, new Func<object, bool>(Add_CanExecute));
+                }
+                return addCommand;
+            }
+            //set { addCommand = value; }
+        }
+
 
         public Company_ViewModel()
         {
@@ -77,6 +94,16 @@ namespace Mvvm_Patternn.ViewModel
             {
                 Console.Write("executed finally");
             }
+        }
+
+        private bool Add_CanExecute(object parameter)
+        {
+            return true;
+        }
+
+        private void Add_Execute(object parameter)
+        {
+
         }
 
         //private class CompanyChangedCommand : ICommand
