@@ -86,5 +86,19 @@ namespace Services.Services
         {
             return x.Invoke();
         }
+
+        public void ExecuteFaultHandler(Action x)
+        {
+            x.Invoke();
+        }
+
+        void a()
+        {
+            ExecuteFaultHandler(() =>
+            {
+
+            }
+            );
+        }
     }
 }
